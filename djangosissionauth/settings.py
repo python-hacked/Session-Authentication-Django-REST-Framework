@@ -141,3 +141,8 @@ EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 EMAIL_USE_TLS = True
 AUTH_USER_MODEL = 'authuser.User'
+
+# Frontend/Backend Site Domain for Password Reset Link and Account Activation Link
+# If using ReactJS VueJS NextJS NuxtJS then you can replace with frontend domain
+SITE_DOMAIN = "http://localhost:8000"
+SITE_NAME = "Local Host"
